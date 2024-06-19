@@ -7,6 +7,10 @@ This is for me to practice cloning repositories.
 # change directory to the cloned repository
 - cd repositoryName
 
+# change remote origin if necessary (can be avoided with forking a repository)
+- git remote remove origin
+- git remote add origin https://github.com/myUserName/newRepositoryName.git
+
 # check the status of current files
 - git status
 
